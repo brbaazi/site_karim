@@ -215,3 +215,77 @@ il n'y a donc rien à modifier pour que cela fonctionne sur GitHub Pages.
 Pour toute question technique sur la structure du code, référez-vous aux
 commentaires présents en haut de chaque fichier JavaScript
 (`js/whatsapp.js`, `js/products.js`, `js/main.js`).
+
+---
+
+## 10. Images à créer — liste complète (identité verte)
+
+Le design a été mis à jour vers une identité **verte** (vert = couleur de
+marque principale, bleu marine conservé uniquement en petite touche sur la
+barre du haut, orange réservé à deux détails techniques minimes). Les
+chemins et noms de fichiers ci-dessous sont **exactement ceux déjà utilisés
+par le code** — remplacez les images existantes en gardant ces noms, aucune
+modification de code ne sera nécessaire.
+
+**Palette de référence pour vos photos/retouches :**
+`--green:#18A04C` (vert de marque) · `--green-dark:#0F7C39` ·
+`--green-800:#0C2B1C` (vert très foncé / noir-vert, fonds sombres) ·
+`--topbar-blue:#0E2038` (bleu, usage minime) · `--orange:#FF6A1A` (accent minime)
+
+### Logo & identité
+
+| Fichier | Taille conseillée | Contenu | Style |
+|---|---|---|---|
+| `images/logo/logo.png` | 512×512 (fond transparent) | Emblème / logo STE BRAKE AUTO | Version verte du logo, fond transparent, lisible en petit (52px dans le header) |
+| `images/icons/favicon-16.png`, `-32.png`, `-48.png`, `-180.png`, `-512.png` | tailles indiquées (carré) | Version simplifiée du logo | Icône simple et contrastée, lisible en très petite taille |
+
+### Image d'accueil (hero)
+
+| Fichier | Taille conseillée | Contenu | Style |
+|---|---|---|---|
+| `images/hero/hero-truck.jpg` | 1600×900 (ou 1920×1080) | Camion poids lourd moderne + disque de frein + flexible de frein en gros plan | Photo professionnelle réaliste, fond sombre/industriel avec **tons verts** dans l'éclairage ou l'environnement si possible, laisser de l'espace vide à gauche pour le texte (le titre et les boutons se superposent sur la partie gauche de l'image) |
+
+### Icônes de catégories
+
+Utilisées sur la page d'accueil (grille de catégories) et réutilisées comme
+vignettes de services sur `services.html`.
+
+| Fichier | Taille conseillée | Contenu | Style |
+|---|---|---|---|
+| `images/icons/cat-freins.jpg` | 800×800 | Pièces de frein (disque, garniture, tambour) | Fond clair ou vert très foncé, produit centré |
+| `images/icons/cat-embrayages.jpg` | 800×800 | Kit / garniture d'embrayage | Idem |
+| `images/icons/cat-flexibles.jpg` | 800×800 | Flexible de frein | Idem |
+| `images/icons/cat-rectification.jpg` | 800×800 | Disque en cours d'usinage / rectifieuse | Idem, ambiance atelier |
+| `images/icons/cat-reparation.jpg` | 800×800 | Mécanicien en intervention sur système de freinage | Idem, ambiance atelier |
+
+### Photos produits — vignette catalogue
+
+Utilisées dans les grilles produits (accueil, `produits.html`).
+
+| Fichier | Taille conseillée | Contenu | Style |
+|---|---|---|---|
+| `images/products/frein/garniture-frein-p17.jpg` | 1000×1000 | Garniture de frein P17 | Fond blanc ou gris très clair, produit centré, haute qualité |
+| `images/products/disques/disque-frein.jpg` | 1000×1000 | Disque de frein renforcé | Idem |
+| `images/products/tambours/tambour-frein.jpg` | 1000×1000 | Tambour de frein | Idem |
+| `images/products/embrayage/garniture-embrayage.jpg` | 1000×1000 | Garniture d'embrayage | Idem |
+| `images/products/flexibles/flexible-frein.jpg` | 1000×1000 | Flexible de frein | Idem |
+
+### Photos produits — fiche détaillée (galerie)
+
+Chaque produit a 3 photos dans son propre dossier (vue principale + 2
+angles / détails).
+
+| Dossier | Fichiers | Taille conseillée | Contenu | Style |
+|---|---|---|---|---|
+| `products/garniture-frein-p17/images/` | `product-1.jpg`, `product-2.jpg`, `product-3.jpg` | 1000×1000 chacune | Garniture de frein P17 sous plusieurs angles (face, profil, détail de la référence gravée) | Fond blanc/gris clair, produit centré, éclairage neutre |
+| `products/disque-frein/images/` | `product-1.jpg`, `product-2.jpg`, `product-3.jpg` | 1000×1000 chacune | Disque de frein sous plusieurs angles | Idem |
+| `products/tambour-frein/images/` | `product-1.jpg`, `product-2.jpg`, `product-3.jpg` | 1000×1000 chacune | Tambour de frein sous plusieurs angles | Idem |
+| `products/garniture-embrayage/images/` | `product-1.jpg`, `product-2.jpg`, `product-3.jpg` | 1000×1000 chacune | Garniture d'embrayage sous plusieurs angles | Idem |
+| `products/flexible-frein/images/` | `product-1.jpg`, `product-2.jpg`, `product-3.jpg` | 1000×1000 chacune | Flexible de frein sous plusieurs angles | Idem |
+
+**Conseils généraux pour toutes les photos produits :**
+- Fond blanc ou gris très clair et uniforme (studio ou fond neutre).
+- Produit bien centré, occupant environ 70–80% du cadre.
+- Format carré (1:1) pour s'aligner sur les cadres déjà prévus dans le design.
+- Éclairage neutre, sans reflets ni ombres dures, pour un rendu "catalogue technique" premium.
+- Export en `.jpg` (qualité ~85–90%) pour rester léger sur GitHub Pages.
