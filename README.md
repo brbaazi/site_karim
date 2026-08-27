@@ -239,11 +239,21 @@ modification de code ne sera nécessaire.
 | `images/logo/logo.png` | 512×512 (fond transparent) | Emblème / logo STE BRAKE AUTO | Version verte du logo, fond transparent, lisible en petit (52px dans le header) |
 | `images/icons/favicon-16.png`, `-32.png`, `-48.png`, `-180.png`, `-512.png` | tailles indiquées (carré) | Version simplifiée du logo | Icône simple et contrastée, lisible en très petite taille |
 
-### Image d'accueil (hero)
+### Image d'accueil (hero) — mise à jour
 
-| Fichier | Taille conseillée | Contenu | Style |
-|---|---|---|---|
-| `images/hero/hero-truck.jpg` | 1600×900 (ou 1920×1080) | Camion poids lourd moderne + disque de frein + flexible de frein en gros plan | Photo professionnelle réaliste, fond sombre/industriel avec **tons verts** dans l'éclairage ou l'environnement si possible, laisser de l'espace vide à gauche pour le texte (le titre et les boutons se superposent sur la partie gauche de l'image) |
+Le hero de la page d'accueil est maintenant **plein cadre** (l'image occupe
+toute la section, un dégradé vert foncé est appliqué par-dessus côté gauche
+pour que le texte reste lisible). Le côté **droit** de l'image reste visible
+sans dégradé : c'est là que doit se trouver le sujet principal.
+
+| Fichier | Taille conseillée | Ratio | Contenu | Style |
+|---|---|---|---|---|
+| `images/hero/hero-truck.jpg` | **1920×1080 minimum** (2400×1350 si possible pour les grands écrans) | 16:9 | Camion poids lourd réaliste + disque de frein / système de freinage + flexible de frein visible, **sujet principal cadré sur la moitié droite de l'image** | Photographie professionnelle réaliste, environnement industriel automobile, fond sombre premium, **accents verts** dans l'éclairage ou le décor, **aucun texte**, **aucun logo** dans l'image (le texte est ajouté par le site par-dessus) |
+
+**Important :** comme un dégradé sombre est appliqué automatiquement sur la
+partie gauche de l'image par le CSS, il n'est pas nécessaire de laisser un
+espace vide vous-même — concentrez le sujet (camion + disque + flexible)
+plutôt vers la droite et le centre de la photo.
 
 ### Icônes de catégories
 
